@@ -18,7 +18,7 @@ describe('Strategies > CEP', () => {
   })
 
   describe('format', () => {
-    it('Formats CEPs according to brazillian-values', () => {
+    it('Formats CEPs according to brazilian-values', () => {
       expect(cep.format(randomCep)).to.eql(formattedCep)
     })
   })

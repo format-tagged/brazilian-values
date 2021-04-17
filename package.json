@@ -1,5 +1,5 @@
 {
-  "name": "@tagged/brazillian-values",
+  "name": "@tagged/brazilian-values",
   "version": "1.1.0",
   "description": "VitorLuizC/brazilian-values integration for format-tagged",
   "main": "dist/index.js",
@@ -39,15 +39,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/format-tagged/brazillian-values.git"
+    "url": "git+https://github.com/format-tagged/brazilian-values.git"
   },
   "keywords": [],
   "author": "Roz <hello@roz.ninja>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/format-tagged/brazillian-values/issues"
+    "url": "https://github.com/format-tagged/brazilian-values/issues"
   },
-  "homepage": "https://github.com/format-tagged/brazillian-values#readme",
+  "homepage": "https://github.com/format-tagged/brazilian-values#readme",
   "files": [
     "dist"
   ],

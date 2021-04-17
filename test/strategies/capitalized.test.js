@@ -18,7 +18,7 @@ describe('Strategies > Capitalized', () => {
   })
 
   describe('format', () => {
-    it('Capitalizes words according to brazillian-values', () => {
+    it('Capitalizes words according to brazilian-values', () => {
       expect(capitalized.format(name)).to.eql(capitalizedWord)
     })
   })

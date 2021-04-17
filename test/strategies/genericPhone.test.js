@@ -18,7 +18,7 @@ describe('Strategies > Generic Phone', () => {
   })
 
   describe('format', () => {
-    it('Formats phones according to brazillian-values', () => {
+    it('Formats phones according to brazilian-values', () => {
       expect(genericPhone.format(randomPhone)).to.eql(formattedPhone)
     })
   })

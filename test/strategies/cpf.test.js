@@ -18,7 +18,7 @@ describe('Strategies > CPF', () => {
   })
 
   describe('format', () => {
-    it('Formats CPFs according to brazillian-values', () => {
+    it('Formats CPFs according to brazilian-values', () => {
       expect(cpf.format(randomCpf)).to.eql(formattedCpf)
     })
   })

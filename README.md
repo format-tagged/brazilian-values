@@ -1,4 +1,4 @@
-# brazillian-values
+# brazilian-values
 
 VitorLuizC/brazilian-values integration for format-tagged
 
@@ -6,7 +6,7 @@ VitorLuizC/brazilian-values integration for format-tagged
 
 ```typescript
 import { getFormat } from '@tagged/format'
-import { strategies } from '@tagged/brazillian-values'
+import { strategies } from '@tagged/brazilian-values'
 
 const format = getFormat(strategies.all) // or strategies.cpf, strategies.cnpj...
 

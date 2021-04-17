@@ -27,7 +27,7 @@ describe('Strategies > CPF or CNPJ', () => {
   })
 
   describe('format', () => {
-    it('Formats CPFs and CNPJs according to brazillian-values', () => {
+    it('Formats CPFs and CNPJs according to brazilian-values', () => {
       expect(cpfOrCnpj.format(randomCpf)).to.eql(formattedCpf)
       expect(cpfOrCnpj.format(randomCnpj)).to.eql(formattedCnpj)
     })

@@ -18,7 +18,7 @@ describe('Strategies > CNPJ', () => {
   })
 
   describe('format', () => {
-    it('Formats CNPJs according to brazillian-values', () => {
+    it('Formats CNPJs according to brazilian-values', () => {
       expect(cnpj.format(randomCnpj)).to.eql(formattedCnpj)
     })
   })

@@ -25,7 +25,7 @@ describe('Strategies > RG', () => {
   })
 
   describe('format', () => {
-    it('Formats RGs according to brazillian-values', () => {
+    it('Formats RGs according to brazilian-values', () => {
       expect(rg.format(randomRg, undefined, undefined, { state: 'SP' })).to.eql(formattedRg)
     })
   })

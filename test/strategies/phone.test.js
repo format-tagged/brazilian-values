@@ -18,7 +18,7 @@ describe('Strategies > List', () => {
   })
 
   describe('format', () => {
-    it('Formats lists according to brazillian-values', () => {
+    it('Formats lists according to brazilian-values', () => {
       expect(list.format(sampleList)).to.eql(formattedList)
     })
   })
