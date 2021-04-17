@@ -1,9 +1,9 @@
-import type { FormattingStrategy } from '@tagged/format/dist/types/FormattingStrategy'
-import { formatToCEP } from 'brazilian-values'
+import type { FormattingStrategy } from '@tagged/format/dist/types/FormattingStrategy';
+import { formatToCEP } from 'brazilian-values';
 
 type CepStrategy = FormattingStrategy<string, {}>
 
-export const extract: CepStrategy['extract'] = ({ cep }) => [cep, {}]
+export const extract: CepStrategy['extract'] = ({ cep }) => cep ? [cep, {}] : undefined
 
 export const format: CepStrategy['format'] = (value) => formatToCEP(value)
 

@@ -3,10 +3,8 @@ import { formatToRG } from 'brazilian-values'
 
 type RgStrategy = FormattingStrategy<string, { state: string }>
 
-export const extract: RgStrategy['extract'] = ({ rg, state = 'SP' }) => [
-  rg,
-  { state }
-]
+export const extract: RgStrategy['extract'] = ({ rg, state = 'SP' }) =>
+  rg ? [rg, { state }] : undefined
 
 export const format: RgStrategy['format'] = (value, _, __, { state }) =>
   formatToRG(value, state)

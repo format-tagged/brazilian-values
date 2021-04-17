@@ -1,9 +1,9 @@
-import type { FormattingStrategy } from '@tagged/format/dist/types/FormattingStrategy'
-import { formatToCPF } from 'brazilian-values'
+import type { FormattingStrategy } from '@tagged/format/dist/types/FormattingStrategy';
+import { formatToCPF } from 'brazilian-values';
 
 type CpfStrategy = FormattingStrategy<string, {}>
 
-export const extract: CpfStrategy['extract'] = ({ cpf }) => [cpf, {}]
+export const extract: CpfStrategy['extract'] = ({ cpf }) => cpf ? [cpf, {}] : undefined
 
 export const format: CpfStrategy['format'] = (value) => formatToCPF(value)
 
