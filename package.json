@@ -1,6 +1,6 @@
 {
   "name": "@tagged/brazillian-values",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "VitorLuizC/brazilian-values integration for format-tagged",
   "main": "dist/index.js",
   "devDependencies": {
